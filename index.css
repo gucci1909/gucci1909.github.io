@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-.home{
+.home {
   display: flex;
   height: 100vh;
   background-position: center;
@@ -14,137 +14,166 @@
   background-image: url(images/simple-pattern-with-css3.png);
 }
 
-.fade-in-image { 
-    animation: fadeIn 5s; 
-    text-align: center;
-    height: 500px;
+.fade-in-image {
+  animation: fadeIn 5s;
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  /* margin-left: 120px; */
+  margin-top: 40px;
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+
+  justify-items: center;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+.boxes {
+  font-family: Montserrat;
+  text-align: center;
+  color: #0049b7;
+  font-size: 34px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.text:first-of-type {
+  animation: appear 6s infinite;
+}
+.text:last-of-type {
+  animation: reveal 6s infinite;
+}
+.text:last-of-type span {
+  font-size: 33px;
+  color: #ff1d58;
+  animation: slide 6s infinite;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+@keyframes slide {
+  0% {
+    margin-left: -1000px;
+  }
+  20% {
+    margin-left: -1000px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
     width: 500px;
-    margin-left: 120px;
-    margin-top: 40px;
-    display: flex;
-    padding-top: 40px;
-    align-items: center;
-    justify-content: center;
-
-    justify-items: center;
-    
-    }
-    @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-            .boxes{
-            font-family: Montserrat;
-            text-align: center;
-            color: #0049B7;
-            font-size: 34px;
-            margin-top: 30px;
-            overflow: hidden;
-          }
-          .text{
-            display: inline-block;
-            overflow: hidden;
-            white-space: nowrap;
-          }
-          .text:first-of-type{
-            animation: appear 6s infinite;
-          }
-          .text:last-of-type{
-            animation: reveal 6s infinite;
-          }
-          .text:last-of-type span{
-            font-size: 33px;
-            color: #ff1d58;
-            animation: slide 6s infinite;
-          }
-          @keyframes appear{
-            0%{opacity: 0;}
-            20%{opacity: 1;}
-          }
-          @keyframes slide{
-            0%{margin-left:-1000px;}
-            20%{margin-left:-1000px;} 
-             35%{margin-left:0px;}
-          100%{margin-left:0px;}
-          }
-          @keyframes reveal{
-            0%{opacity: 0; width: 0px;}
-            20%{opacity: 1; width: 0px;}
-            30%{width: 500px;}
-            80%{opacity: 1;}
-            100%{opacity: 0; width: 500px;}
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 500px;
+  }
 }
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-
-
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
 }
-.navbar{
-    position: fixed;
-    width: 100%;
-    padding: 30px 0;
-    z-index: 1;
-    /* background: crimson; */
-    font-family: 'Ubuntu',sans-serif;
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
 }
-.navbar .logo a{
-    font-size: 35px;
-    font-weight:600 ;
-    color: #fff;
+.navbar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
 }
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar .menu li{
-    list-style: none;
-    display: inline-block;
-
-    
+/* .menu{
+    margin-left: 100px;
+} */
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
 }
-.navbar .logo a span{
-    color: crimson;
-    transition: all 0.3 ease;
+.menu-btn {
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
 }
-.navbar .menu li a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition:  color 0.3 ease;
+.navbar .logo a span {
+  color: crimson;
+  transition: all 0.3 ease;
 }
-.navbar .menu li a:hover{
-    color: crimson;
-
-
+.navbar .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: color 0.3 ease;
 }
-.navbar.sticky .menu li a:hover{
-    color: #fff;
+.navbar .menu li a:hover {
+  color: crimson;
 }
-.navbar.sticky .logo a span{
-    color: #fff;
+.navbar.sticky .menu li a:hover {
+  color: #fff;
 }
-.navbar.sticky{
-    padding: 20px 0;
-    background: crimson;
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+.navbar.sticky {
+  padding: 20px 0;
+  background: crimson;
 }
 
 /* CSS */
 .button-24 {
-  background: #FF4742;
-  border: 1px solid #FF4742;
+  background: #ff4742;
+  border: 1px solid #ff4742;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 16px;
@@ -169,34 +198,86 @@
 }
 
 .button-24:active {
-  opacity: .5;
+  opacity: 0.5;
 }
-.home{
-    display: flex;
-    /* background: url("images/") no-repeat center; */
-    height: 100vh;
-    color:#fff;
-    min-height: 500px;
-    font-family: 'Ubuntu',sans-serif;
+.home {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/simple-pattern-with-css3.png);
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
 }
-.home .max-width{
-    margin: auto 0 auto 40px;
+.home .max-width {
+  margin: auto 0 auto 40px;
 }
-.home .home-content .text-1{
-    font-size:27px
+.home .home-content .text-1 {
+  font-size: 27px;
 }
-.home .home-content .text-2{
-    font-size:75px;
-    font-weight: 600;
-    margin-left: -3px;
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 500;
+}
+@media (max-width: 917px) {
+    /* .fade-in-image {
+        margin-left: auto;
+    } */
+    .home {
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(images/simple-pattern-with-css3.png);
+      }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
 
-}
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-
-}
-.home .home-content .text-3 span{
-    color: crimson;
-    font-weight: 500;
+  .max-width {
+    padding: 0 50px;
+  }
+  .navbar .menu {
+    position: fixed;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    height: 300vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/simple-pattern-with-css3.png);
+    text-align: center;
+    padding-top: 80px;
+    /* background-color: #111; */
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 40px 0;
+    font-size: 25px;
+  }
+  .button-24 {
+    display: inline-block;
+    margin: 40px 0;
+    font-size: 25px;
+  }
 }
