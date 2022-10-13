@@ -206,7 +206,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/simple-pattern-with-css3.png);
-  height: 100vh;
+  height: 150vh;
   color: #fff;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
@@ -231,9 +231,6 @@
   font-weight: 500;
 }
 @media (max-width: 917px) {
-    .fade-in-image {
-        margin-left: 0;
-    }
     #home{
       display: block;
     }
@@ -374,7 +371,7 @@ font-size: 35px;
   width: 350px;
   margin-top: 80px;
   position: absolute;
-  margin-left: 33px;
+  margin-left: 0px;
   padding-top: 0px;
 }
 .home-content{
