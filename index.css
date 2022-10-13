@@ -308,7 +308,7 @@
 .home {
   display: block;
 
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -371,7 +371,7 @@ font-size: 35px;
   width: 350px;
   margin-top: 80px;
   position: absolute;
-  margin-left: 0px;
+  margin-left: auto;
   padding-top: 0px;
 }
 .home-content{
