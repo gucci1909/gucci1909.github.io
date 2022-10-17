@@ -733,11 +733,10 @@
 
 
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .home {
     display: flex;
     height: auto;
-    /* width: 100%; */
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -785,14 +784,12 @@
   }
   #home {
     display: flex;
-    /* width: 180%; */
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
     background-image: url(images/simple-pattern-with-css3.png);
     height: 100vh;
     color: #fff;
-    /* min-height: 500px; */
     font-family: "Ubuntu", sans-serif;
   }
 
@@ -812,16 +809,6 @@
     padding: 0 0px;
     font-size: 18px;
   }
-  /* #home{
-  display: flex;
-  height: auto;
-  width: 100%;
-  overflow: hidden; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(images/simple-pattern-with-css3.png);
-} */
   .navbar {
     position: fixed;
     width: 100%;
@@ -925,4 +912,4 @@
     display: none;
   }
 }
-
+ */
