@@ -532,7 +532,7 @@
 }
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+@media only screen and (min-width: 412px) and (max-width: 767px)  {
   /* CSS */
   .home {
     display: flex;
@@ -549,7 +549,7 @@
   position: absolute;
   bottom: 0px;
   left: 50%;
-  margin-top: 206px;
+  margin-bottom: -172px;
   width: 180px;
   height: 3px;
   background: #111;
@@ -562,7 +562,7 @@
   left: 50%;
   font-size: 20px;
   color: crimson;
-  margin-top: 110px;
+  margin-bottom: -180px;
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -733,7 +733,7 @@
 
 
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .home {
     display: flex;
     height: auto;
@@ -912,4 +912,4 @@
     display: none;
   }
 }
- */
+
