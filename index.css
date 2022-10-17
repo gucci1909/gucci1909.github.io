@@ -549,7 +549,7 @@
   position: absolute;
   bottom: 0px;
   left: 50%;
-  margin-bottom: -86px;
+  margin-top: 86px;
   width: 180px;
   height: 3px;
   background: #111;
@@ -562,7 +562,7 @@
   left: 50%;
   font-size: 20px;
   color: crimson;
-  margin-bottom: -90px;
+  margin-top: 90px;
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
