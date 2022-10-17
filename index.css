@@ -556,7 +556,7 @@
   transform: translateX(-50%);
 }
 .about .title::after {
-  content: "who i am";
+  content: "who am i";
   position: absolute;
   bottom: -12px;
   left: 50%;
