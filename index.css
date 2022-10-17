@@ -319,6 +319,57 @@
 
 
 
+.skills {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+}
+.skills .title12 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  /* padding-bottom: 0px; */
+  font-family: "Ubuntu", sans-serif;
+}
+.skills .title12:before {
+  content: "";
+  position: absolute;
+  /* bottom: 0px; */
+  /* left: 50%; */
+  margin-top: 60px;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  /* transform: translateX(-50%); */
+}
+#image img{
+  height: 150px;
+  width: 150px;
+}
+#image{
+  display: grid;
+  margin-top: 50px;
+  gap: 15px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2,250px);
+  text-align: center;
+}
+.skills .title12::after {
+  content: "what i know";
+  position: absolute;
+  /* bottom: -5px; */
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  margin-top: 50px;
+  margin-left: 10px;
+  /* padding: 5px; */
+  background: #fff;
+  transform: translateX(-50%);
+}
+
+
 
 
 
@@ -335,7 +386,24 @@
     justify-content: center;
     justify-items: center;
   }
+  .title12{
+    margin-top: -160px;
+  }
+
+  #image img{
+    height: 150px;
+    width: 150px;
+  }
+  #image{
+    display: grid;
+    margin-top: 50px;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,250px);
+    text-align: center;
+  }
   /* .home {
+
         height: 600px;
         display: flex;
         width: 100%;
@@ -486,6 +554,18 @@
   .navbar.sticky {
     background: crimson;
     padding: 0 30px;
+  }
+  #image img{
+    height: 100px;
+    width: 100px;
+  }
+  #image{
+    display: grid;
+    margin-top: 50px;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,190px);
+    text-align: center;
   }
   #home {
     display: flex;
