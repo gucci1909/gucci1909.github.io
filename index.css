@@ -556,7 +556,7 @@
   transform: translateX(-50%);
 }
 .about .title::after {
-  content: "who am inhytrdc";
+  content: "who i am";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -897,10 +897,6 @@
   section {
     padding: 100px 0;
   }
-  /* .text{ */
-    /* margin-left: -20px; */
-  /* } */
-
   .about-content {
     display: flex;
     flex-direction: column;
@@ -909,20 +905,6 @@
     justify-items: center;
     gap: 20px;
   }
-  /* .about-content .right {
-    margin-top: 13px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .about-content .right p{
-    margin-left: 0px;
-  }
-  .about-content .right a{
-    margin-left: 0px;
-  } */
-  /* .text {
-    margin-left: -40px;
-  } */
   .about .about-content .left {
     display: none;
   }
