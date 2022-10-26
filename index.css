@@ -416,8 +416,6 @@
 .about .about-content {
   display: flex;
   align-items: center;
-  /* margin: auto; */
-  /* justify-content: space-between; */
   margin: 10px;
 }
 .about .about-content .left {
@@ -600,16 +598,6 @@
     grid-template-rows: repeat(4,250px);
     text-align: center;
   }
-  /* .home {
-
-        height: 600px;
-        display: flex;
-        width: 100%;
-        /* background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;*/
-  /* background-image: url(images/simple-pattern-with-css3.png);  */
-  /* } */
   .menu-btn {
     display: block;
     z-index: 999;
