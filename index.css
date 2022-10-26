@@ -5,6 +5,14 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.texting{
+  font-size: 24px;
+  font-weight: 400;
+  background-image: linear-gradient(to left, #553c9a, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .gtco-testimonials {
   z-index: -1;
 }
@@ -939,6 +947,7 @@
     justify-content: center;
     justify-items: center;
   }
+  
   .about .title:before {
   content: "";
   position: absolute;
