@@ -284,16 +284,16 @@
 }
 
 .danger {
-  background-color : #FF4500;
+  background-color : crimson;
   color: #FFFFFF;
 }
 
 .danger:hover {
   background-color: #EEEEEE;
-  color: #EB003B;
+  color: crimson;
 }
 .clickme {
-  background-color:#EB003B;
+  background-color:crimson;
   padding: 8px 20px;
   text-decoration:none;
   font-weight:bold;
@@ -950,6 +950,9 @@
   background: #111;
   transform: translateX(-50%);
 }
+/* .owl-carousel{ */
+  /* ma/rgin-right: 0px; */
+/* } */
 .about .title::after {
   content: "who i am";
   position: absolute;
