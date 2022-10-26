@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <title>Umang</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./carosel.scss">
   </head>
   <body>
     <nav class="navbar">
@@ -33,7 +39,8 @@
           </li>
           <button class="button-24" role="button">RESUME</button>
         </ul>
-        <div class="menu-btn"> <i class="fa fa-bars" style="font-size:24px"></i>
+        <div class="menu-btn">
+          <i class="fa fa-bars" style="font-size: 24px"></i>
         </div>
       </div>
     </nav>
@@ -44,14 +51,14 @@
       <img src="./images/My project.png" class="fade-in-image" />
       <div class="max-width">
         <div class="home-content">
-            <div class="text-1">Hello , my name is</div>
-            <div class="text-2">Umang Arora</div>
-            <div class="text-3">And I am a <span>Full Stack Developer</span></div>
+          <div class="text-1">Hello , my name is</div>
+          <div class="text-2">Umang Arora</div>
+          <div class="text-3">And I am a <span>Full Stack Developer</span></div>
         </div>
       </div>
     </section>
 
-<!-- about section -->
+    <!-- about section -->
 
     <section class="about" id="about">
       <div class="max-width">
@@ -59,81 +66,220 @@
         <div class="about-content">
           <div class="column right">
             <div class="text">I am a Full Stack Developer</div>
-            <p>I really enjoy Working on Languages and Frameworks like React , Express and Node.js. I believe changes in life are a part for a good future and i want to be a part of that change . I love learning something new everyday i start coding in my laptop .</p>
+            <p>
+              I really enjoy Working on Languages and Frameworks like React ,
+              Express and Node.js. I believe changes in life are a part for a
+              good future and i want to be a part of that change . I love
+              learning something new everyday i start coding in my laptop .
+            </p>
             <a href="./Umang-Arora-Resume.pdf" download>Download Resume</a>
           </div>
           <div class="column left">
-            <img src="images/fcf7fd0c619bb87706533079240915f3.gif" alt="codinggif">
-
+            <img
+              src="images/fcf7fd0c619bb87706533079240915f3.gif"
+              alt="codinggif"
+            />
           </div>
         </div>
       </div>
     </section>
 
-   <!-- Skills section -->
+    <!-- Skills section -->
 
-   <section class="skills" id="skills">
-    <div class="max-width">
-      <h2 class="title12">My Skills</h2>
-      <div id="image">
-        <div>
-          <img src="./images/html-5.png" alt="">
-          <h3>HTML</h3>
-        </div>
-        <div>
-          <img src="./images/css.png" alt="">
-          <h3>CSS</h3>
-        </div>
-        <div>
-          
-          <img src="./images/js.png"/>
-          <h3>JS</h3>
-        </div>
-        <div>
-         
-          <img src="./images/nodejs.png" alt="">
-          <h3>Node JS</h3>
-        </div>
-        <div>
-          
-          <img src="./images/express-js-icon.png" />
-          <h3>Express JS</h3>
-        </div>
-        <div>
-          <img src="./images/mongodb.png" alt="">
-          <h3>Mongodb</h3>
-
-        </div>
-        <div>
-          <img src="./images/bootstrap.png" alt="">
-          <h3>Bootstrap</h3>
-        </div>
-        <div>
-          <img src="./images/react.png" alt="">
-          <h3>React JS</h3>
-        </div>
-        <div>
-          
-          <img src="./images/redux.png" alt="">
-          <h3>Redux</h3>
-        </div>
-        <div>
-          <img src="./images/git.png" alt="">
-          <h3>Git</h3>
-        </div>
-        <div>
-          <img src="./images/postman.png" alt="">
-          <h3>Postman</h3>
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title12">My Skills</h2>
+        <div id="image">
+          <div>
+            <img src="./images/html-5.png" alt="" />
+            <h3>HTML</h3>
+          </div>
+          <div>
+            <img src="./images/css.png" alt="" />
+            <h3>CSS</h3>
+          </div>
+          <div>
+            <img src="./images/js.png" />
+            <h3>JAVASCRIPT</h3>
+          </div>
+          <div>
+            <img src="./images/nodejs.png" alt="" />
+            <h3>Node JS</h3>
+          </div>
+          <div>
+            <img src="./images/express-js-icon.png" />
+            <h3>Express JS</h3>
+          </div>
+          <div>
+            <img src="./images/mongodb.png" alt="" />
+            <h3>Mongodb</h3>
+          </div>
+          <div>
+            <img src="./images/bootstrap.png" alt="" />
+            <h3>Bootstrap</h3>
+          </div>
+          <div>
+            <img src="./images/react.png" alt="" />
+            <h3>React JS</h3>
+          </div>
+          <div>
+            <img src="./images/redux.png" alt="" />
+            <h3>Redux</h3>
+          </div>
+          <div>
+            <img src="./images/git.png" alt="" />
+            <h3>Git</h3>
+          </div>
+          <div>
+            <img src="./images/postman.png" alt="" />
+            <h3>Postman</h3>
+          </div>
         </div>
       </div>
-    </div>
-   </section>
+    </section>
+
+    <!-- Projects Section -->
     
+    <section class="gtco-testimonials projects">
+      <div class="max-width">
+        <h2 class="title12">My Projects</h2>
+      <div class="owl-carousel owl-carousel1 owl-theme">
+        <div class="card">
+          <div class="box">
+            <img class="homepage" src="./images/kindmeal.png" alt="" />
+            <div class="texting">Kindmeal Clone Website</div>
+            <p>
+              Tech Stack - NODE.JS , REACT.JS , HEROKU , MONGO DB , EXPRESS.JS
+              , CHAKRA-UI
+            </p>
+            <p>
+              Objective - Clone website of kindmeal.my . The Tech-Stack which
+              I have used in this clone website :- React.js, Chakra UI,
+              Express, Mongo DB, api , Heroku. I've created Home page , Signup
+              page , Login page and Kindmeal products page.
+            </p>
+            <div class="buttons">
+                <a class="clickme danger"  href="https://domineering-kick-7131.vercel.app/">
+                  Website Link
+                </a>
+                <a class="clickme danger"
+                  href="https://github.com/gucci1909/Kindmeal-website-clone.git"
+                >
+                  Github Repo
+                </a>
+            </div>
 
-   <!-- Projects Section -->
-
-   
-
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img class="homepage" src="./images/jiomart.png" alt="" />
+            <div class="texting">Jiomart Clone Website</div>
+            <p>
+              Tech Stack - HTML5 , CSS3, JAVASCRIPT, HEROKU , API, BOOTSTRAP
+            </p>
+            <p>
+              Objective - Clone Website of Jiomart website in which i've
+              deployed my own api . You can add your products to the cart and
+              buy them
+            </p>
+            <div class="buttons">
+                <a class="clickme danger" href="https://gucci1909.github.io/Jio-Mart-Website-Clone/">
+                  Website Link
+                </a>
+                <a class="clickme danger"
+                  href="https://github.com/gucci1909/Jio-Mart-Website-Clone.git"
+                >
+                  Github Repo
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img class="homepage" src="./images/myglamm.png" alt="" />
+            <div class="texting">Myglamm Clone Website</div>
+            <p>
+              Tech Stack - HTM5 , CSS3 , JAVASCRIPT, LOCAL-STORAGE, API ,
+              BOOTSTRAP
+            </p>
+            <p>
+              Objective - Clone of an E-commerce (myglamm) website which is
+              made from Html,css,javascript , you can add products in your
+              cart and buy them
+            </p>
+            <div class="buttons">
+                <a class="clickme danger" href="https://gucci1909.github.io/My-glamm-Website-Clone/">
+                  Website Link
+                </a>
+                <a class="clickme danger"
+                  href="https://github.com/gucci1909/My-glamm-Website-Clone.git"
+                >
+                  Github Repo
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img class="homepage" src="./images/myntra.png" alt="" />
+            <div class="texting">Myntra Clone Website</div>
+            <p>
+              Tech Stack - HTML5 , CSS3 , JAVASCRIPT , LOCAL-STORAGE ,
+              BOOTSTRAP
+            </p>
+            <p>
+              Objective - This project is the UI clone of Myntra.com, which is
+              a popular E-Commerce website, where anyone can visit and buy
+              their required item.
+            </p>
+            <div class="buttons">
+                <a class="clickme danger" href="https://exquisite-cucurucho-70b93b.netlify.app/">
+                  Website Link
+                </a>
+                <a class="clickme danger"
+                  href="https://github.com/gucci1909/Myntra-Website-Clone.git"
+                >
+                  Github Repo
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img class="homepage" src="./images/zappos.png" alt="" />
+            <div class="texting">Zappos Clone Website</div>
+            <p>Tech Stack - HTML5 , CSS3 , JAVASCRIPT</p>
+            <p>
+              Objective - This project is the UI clone of Zappos.com, which is
+              a popular E-Commerce website, where anyone can visit and buy
+              their required item.
+            </p>
+            <div class="buttons">
+                <a class="clickme danger"  href="https://spontaneous-starlight-6559f8.netlify.app/">
+                  Website Link
+                </a>
+                <a class="clickme danger"
+                  href="https://github.com/gucci1909/Zappos-Website-Clone.git"
+                >
+                  Github Repo
+                </a>
+              </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
   </body>
 </html>
 <script src="./index.js"></script>
+
+
+
+
+
+
+
+
+
+
