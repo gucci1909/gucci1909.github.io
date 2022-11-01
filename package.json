@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "github-calendar": "^2.3.1"
-  }
+  },
+  "name": "gucci1909.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gucci1909/gucci1909.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gucci1909/gucci1909.github.io/issues"
+  },
+  "homepage": "https://github.com/gucci1909/gucci1909.github.io#readme",
+  "description": ""
 }
