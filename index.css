@@ -930,6 +930,10 @@ a{
 
 
 @media (max-width: 480px) {
+  #calender{
+    width: 300px;
+    height: 300px;
+  }
   .home {
     display: flex;
     height: auto;
