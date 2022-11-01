@@ -1,6 +1,6 @@
 $(document).ready(function(){
  $(window).scroll(function(){
-    if(this.scrollY > 2000){
+    if(this.scrollY > 1980){
       $('.navbar').addClass("remove");
     }  
     if(this.scrollY >20){

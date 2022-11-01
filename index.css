@@ -5,6 +5,16 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+/* body{
+  background-color: white;
+  color: black;
+} */
+a:visited {
+  color: 	lemonchiffon;
+}
+a{
+  transition: all .3s ease-in-out;
+}
 .texting{
   font-size: 24px;
   font-weight: 400;
@@ -402,7 +412,7 @@
   transform: translateX(-50%);
 }
 .about .title::after {
-  content: "who i am";
+  content: "who I am";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -486,7 +496,7 @@
   /* transform: translateX(-50%); */
 }
 .projects .title12::after {
-  content: "what i made";
+  content: "what I made";
   position: absolute;
   /* bottom: -5px; */
   left: 50%;
@@ -543,7 +553,7 @@
   text-align: center;
 }
 .skills .title12::after {
-  content: "what i know";
+  content: "what I know";
   position: absolute;
   /* bottom: -5px; */
   left: 50%;
@@ -742,7 +752,7 @@
   transform: translateX(-50%);
 }
 .about .title::after {
-  content: "who i am";
+  content: "who I am";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -952,7 +962,7 @@
   /* ma/rgin-right: 0px; */
 /* } */
 .about .title::after {
-  content: "who i am";
+  content: "who I am";
   position: absolute;
   bottom: -12px;
   left: 50%;
