@@ -628,9 +628,31 @@ a{
 
 
 @media (max-width: 917px) {
-    /* #calender{
-        display: none;
-    } */
+  #card-box{
+    margin-left: 20px;
+  }
+  .stats{
+    margin-top: -170px;
+  }
+  #stats{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    margin-top: 0px;
+    gap: 0px;
+    /* height: 680px; */
+    justify-content: center;
+    /* align-items: flex-start/; */
+    margin-top: 0px;
+  }
+  .stars{
+    margin-top: 0px;
+    height: 270px;
+    width: 390px;
+  }
+    #calender{
+        margin-top: -100px;
+    }
   #home {
     display: flex;
     flex-direction: row;
@@ -1012,7 +1034,7 @@ a{
     width: 330px;
   }
   #calender{
-    display: none;
+   display: none;
   } 
   .home {
     display: flex;
