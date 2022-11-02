@@ -628,9 +628,9 @@ a{
 
 
 @media (max-width: 917px) {
-    #calender{
+    /* #calender{
         display: none;
-    }
+    } */
   #home {
     display: flex;
     flex-direction: row;
