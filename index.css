@@ -977,18 +977,23 @@ a{
 
 
 @media (max-width: 480px) {
+  .stats{
+    margin-top: -170px;
+  }
   #stats{
     display: flex;
     flex-direction: column;
     margin: 0px;
+    margin-top: 0px;
     gap: 0px;
+    /* height: 680px; */
     justify-content: center;
     /* align-items: flex-start/; */
     margin-top: 0px;
   }
   .stars{
     margin-top: 0px;
-    height: 340px;
+    height: 170px;
     width: 330px;
   }
   #calender{
