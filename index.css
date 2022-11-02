@@ -977,6 +977,20 @@ a{
 
 
 @media (max-width: 480px) {
+  #stats{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 0px;
+    justify-content: center;
+    /* align-items: flex-start/; */
+    margin-top: 0px;
+  }
+  .stars{
+    margin-top: 0px;
+    height: 340px;
+    width: 330px;
+  }
   #calender{
     display: none;
   } 
