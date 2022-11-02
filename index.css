@@ -32,12 +32,12 @@ header h1 {
 header .header-1{
   background-image: repeating-radial-gradient(closest-side at 20px 20px, #fd5c63, #D2122E);
 }
-a:visited {
+/* a:visited {
   color: 	lemonchiffon;
 }
 a{
   transition: all .3s ease-in-out;
-}
+} */
 .stats{
   margin-top: 50px;
 }
@@ -560,9 +560,6 @@ a{
   background: #fff;
   transform: translateX(-50%);
 }
-i{
-  color: crimson;
-}
 .contact{
   font-family: "Poppins", sans-serif;
   z-index: -1;
@@ -670,6 +667,174 @@ i{
   background: #fff;
   transform: translateX(-50%);
 }
+.contact i{
+  color: crimson;
+  font-size: 25px;
+}
+.contact{
+  font-family: 'Poppins',sans-serif;
+}
+.contact .column{
+  /* width: calc(50%-30px); */
+}
+.contact-content{
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* gap:100px; */
+  /* align-items: center; */
+}
+.contact .left p{
+  /* text-align: justify; */
+}
+.contact .texting123{
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-top: -100px; */
+  margin-bottom: 30px;
+}
+.contact .texting124{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -30px;
+  margin-bottom:30px ;
+}
+.contact .left .icons{
+  margin: 10px 0;
+}
+.contact .left{
+  /* border: 1px solid red; */
+  width: 400px;
+  margin-left: 50px;
+}
+.contact .right{
+  /* border: 1px solid red; */
+  width: 550px;
+  margin-left: 600px;
+  margin-top: -360px;
+}
+.contact .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+
+}
+.contact .row .info{
+  margin-left: 30px;
+}
+
+.contact .info .head{
+  font-weight: 500;
+}
+.contact .info .sub-title{
+  color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .email{
+  margin-left: 10px;
+}
+.contact .right form .textarea{
+  height: 140px;
+  width: 100%;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0px 15px;
+  font-size: 15px;
+  font-family: 'Poppins',sans-serif;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button{
+  height: 47px;
+  width: 170px;
+}
+.contact .right form .button button{
+  width: 100%;
+  height: 100%;
+  border: 2px solid crimson;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transform: all 0.3s ease;
+
+}
+.contact .right form .button button:hover{
+  color: crimson;
+  background: none;
+
+}
+#icon-social{
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+
+}
+.social{
+ height: 60px;
+ width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -680,6 +845,15 @@ i{
 
 
 @media (max-width: 917px) {
+  .contact .left{
+    /* border: 1px solid red; */
+    margin-left: 140px;
+  }
+  .contact .right{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 60px;
+  }
   #card-box{
     margin-left: 20px;
   }
@@ -1063,6 +1237,40 @@ i{
   /* .owl-dots{
     margin-left: -30px;
   } */
+  .contact .right form .textarea{
+    height: 170px;
+    width:300px;
+    margin-top: 30px;
+  }
+  .contact .right form .button button{
+    margin-top: 15px;
+  }
+  .contact .right form .field input{
+  /* height: 130px; */
+  width: 150px;
+  margin-top: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0px 15px;
+  font-size: 15px;
+  font-family: 'Poppins',sans-serif;
+}
+.contact .right{
+  /* display: none; */
+  margin-left: 10px;
+  width: 300px;
+}
+  #contact{
+    margin-top: -110px;
+
+  }
+  .contact .left{
+    margin-left: 35px;
+    width: 300px;
+    /* margin-right: -50px; */
+  }
+
   #card-box{
     margin-left: 20px;
   }

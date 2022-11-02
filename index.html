@@ -53,7 +53,12 @@
             <a href="#contact"> CONTACT </a>
           </li>
           <button class="button-24" role="button">
-            <a href="https://drive.google.com/file/d/1SYniV3Pn3lZBf4dXHfHWqXU0GOJGAcOa/view?usp=sharing" target="_blank" class="alt">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1SYniV3Pn3lZBf4dXHfHWqXU0GOJGAcOa/view?usp=sharing"
+              target="_blank"
+              class="alt"
+              >Resume</a
+            >
           </button>
         </ul>
         <div class="menu-btn">
@@ -343,7 +348,6 @@
       </header>
       <div class="calendar">Loading the data just for you.</div>
     </div>
-    <script src="./index.js"></script>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
     <script>
@@ -365,37 +369,71 @@
     <section class="contact" id="contact">
       <div class="max-width">
         <h2 class="title13">Contact Me</h2>
-        <div class="contact left">
-          <div class="">Get in Touch</div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolor aspernatur ducimus nihil aliquid placeat pariatur, quasi praesentium, laudantium eum necessitatibus enim quia, ut ipsum corrupti explicabo hic aliquam excepturi.</p>
-          <div class="icons">
-            <div class="row">
-              <i class="fa fa-user"></i>
-              <div class="info">
-                <div class="head">Name</div>
-                <div class="sub-title">Umang Arora</div>
+        <div class="contact-content">
+
+          <div class="contact left">
+            <div class="texting123">Get in Touch</div>
+            <div class="icons">
+              <div class="row">
+                <i class="fa fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Umang Arora</div>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <i class="fa fa-map-marker"></i>
-              <div class="info">
-                <div class="head">Address</div>
-                <div class="sub-title">Moradabad, Uttar Pradesh, India</div>
+              <div class="row">
+                <i class="fa fa-phone"></i>
+                <div class="info">
+                  <div class="head">Phone No. :</div>
+                  <div class="sub-title">9997038533</div>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <i class="fa fa-envelope"></i>
-              <div class="info">
-                <div class="head">Email</div>
-                <div class="sub-title">umangarora0134@gmail.com</div>
+              <div class="row">
+                <i class="fa fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">umangarora0134@gmail.com</div>
+                </div>
+              </div>
+              <div id="icon-social">
+                <a href="https://www.linkedin.com/in/umang-arora-full-stack-developer/" target="_blank">
+                  <img src="./images/linkedin-circle.png" class="social" alt="">
+                </a>
+                <a href="https://github.com/gucci1909"  target="_blank">
+                  <img src="./images/github.png" class="social" alt="">
+                </a>
               </div>
             </div>
           </div>
+          <div class="column right">
+              <div class="texting124">Message Me</div>
+              <form>
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Name" />
+                  </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Subject" />
+                </div>
+                <div class="field textarea">
+                  <textarea
+                  rows="10" cols="30"
+                    placeholder="Write your message here"
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+          </div>
         </div>
-
-
       </div>
-
     </section>
   </body>
 </html>
+<script src="./index.js"></script>
