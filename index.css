@@ -591,6 +591,7 @@ a{
 #image{
   display: grid;
   margin-top: 50px;
+  /* margin-left: 0px; */
   gap: 15px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2,250px);
@@ -981,7 +982,7 @@ a{
     margin-left: -30px;
   } */
   #card-box{
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .stats{
     margin-top: -170px;
@@ -1059,8 +1060,9 @@ a{
   #image{
     display: grid;
     margin-top: 50px;
+
     gap: 5px;
-    margin-left: 10px;
+    margin-left: 0px;
     grid-template-columns: repeat(3, 95px);
     grid-template-rows: repeat(4,130px);
     text-align: center;
