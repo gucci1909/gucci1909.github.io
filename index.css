@@ -977,6 +977,12 @@ a{
 
 
 @media (max-width: 480px) {
+  /* .owl-dots{
+    margin-left: -30px;
+  } */
+  #card-box{
+    margin-left: 30px;
+  }
   .stats{
     margin-top: -170px;
   }
@@ -1054,7 +1060,8 @@ a{
     display: grid;
     margin-top: 50px;
     gap: 5px;
-    grid-template-columns: repeat(3, 10px);
+    margin-left: 10px;
+    grid-template-columns: repeat(3, 95px);
     grid-template-rows: repeat(4,130px);
     text-align: center;
   }
