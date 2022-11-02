@@ -6,6 +6,14 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.alt{
+  text-decoration: none;
+  /* color: white; */
+  color: #fff;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
 header {
   width: auto;
   text-align: center;
