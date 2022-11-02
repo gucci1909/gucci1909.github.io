@@ -6,6 +6,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
 .alt{
   text-decoration: none;
   /* color: white; */
@@ -796,6 +799,24 @@ a{
  height: 60px;
  width: 60px;
 }
+#footer{
+  font-family: 'Poppins',sans-serif;
+}
+#footer{
+  background: whitesmoke;
+  padding: 20px 23px;
+  color: #fff;
+  margin-top: 60px;
+}
+footer span{
+  color: crimson;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* font-size: 18px; */
+}
+
 
 
 
@@ -1262,11 +1283,11 @@ a{
   width: 300px;
 }
   #contact{
-    margin-top: -110px;
+    margin-top: -120px;
 
   }
   .contact .left{
-    margin-left: 35px;
+    margin-left: 10px;
     width: 300px;
     /* margin-right: -50px; */
   }
