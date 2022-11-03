@@ -1271,15 +1271,16 @@ footer span{
   .contact .right form .textarea{
     height: 170px;
     width:300px;
-    margin-top: 30px;
+    margin-top: 50px;
+    /* margin-top: 30px; */
   }
   .contact .right form .button button{
     margin-top: 15px;
   }
-  .contact .right form .field input{
+  .contact .right form .field #name{
   /* height: 130px; */
-  width: 150px;
-  margin-top: 20px;
+  width: 300px;
+  margin-top: -20px;
   border: 1px solid lightgrey;
   border-radius: 6px;
   outline: none;
@@ -1287,6 +1288,31 @@ footer span{
   font-size: 15px;
   font-family: 'Poppins',sans-serif;
 }
+.contact .right form .field #email{
+  /* height: 130px; */
+  width:300px;
+  margin-top: 45px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  margin-left: -320px;
+  outline: none;
+  /* padding: 0px 15px; */
+  font-size: 15px;
+  font-family: 'Poppins',sans-serif;
+}
+.contact .right form .field #subject{
+  /* height: 130px; */
+  width: 300px;
+  margin-top: 40px;
+  /* margin-top: 20px; */
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0px 15px;
+  font-size: 15px;
+  font-family: 'Poppins',sans-serif;
+}
+
 .contact .right{
   /* display: none; */
   margin-left: 10px;
