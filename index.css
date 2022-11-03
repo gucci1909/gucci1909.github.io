@@ -699,19 +699,7 @@ a{
 .contact{
   font-family: 'Poppins',sans-serif;
 }
-.contact .column{
-  /* width: calc(50%-30px); */
-}
-.contact-content{
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* gap:100px; */
-  /* align-items: center; */
-}
-.contact .left p{
-  /* text-align: justify; */
-}
+
 .contact .texting123{
   font-size: 20px;
   font-weight: 600;
