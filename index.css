@@ -57,7 +57,7 @@ a{
   /* align-content: center; */
 }
 #calender{
-  /* width: 2000px; */
+  /* width: 000px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1281,7 +1281,8 @@ footer span{
     position: absolute;
     /* border: 1px solid red; */
     /* margin-left: 40px; */
-    padding-top: 140px;
+    padding-top: 170px;
+    line-height: 35px;
     padding-left: 40px;
     /* margin-top: 1000px; */
   }
