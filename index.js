@@ -27,6 +27,13 @@ $(document).ready(function(){
     $(`.menu-btn i`).toggleClass("active")
  })
 
+ var typed = new Typed(".typing",{
+  strings : ["Full Stack Developer"],
+  typeSpeed :100,
+  backSpeed : 60,
+  loop:true
+ })
+
  var carousels = function () {
     $(".owl-carousel1").owlCarousel({
       loop: true,

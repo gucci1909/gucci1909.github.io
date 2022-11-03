@@ -57,7 +57,7 @@ a{
   /* align-content: center; */
 }
 #calender{
-  /* width: 1000px; */
+  /* width: 2000px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -333,6 +333,7 @@ a{
   transition: all 0.3 ease;
 }
 .navbar .menu li a {
+  display: block;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
