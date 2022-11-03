@@ -1266,6 +1266,27 @@ footer span{
 
 
 @media (max-width: 480px) {
+  .home .home-content .text-1{
+    position: relative;
+    margin-top: -10px;
+    margin-left: 55px;
+  }
+  .home .home-content .text-2{
+    position: relative;
+    margin-left: 55px;
+    padding-top: -10px;
+    margin-top: 0px;
+  }
+  .home .home-content .text-3{
+    position: absolute;
+    /* border: 1px solid red; */
+    /* margin-left: 40px; */
+    padding-top: 140px;
+    padding-left: 40px;
+    /* margin-top: 600px; */
+  }
+  
+  
   /* .owl-dots{
     margin-left: -30px;
   } */

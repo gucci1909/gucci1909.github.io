@@ -33,7 +33,7 @@ $(document).ready(function(){
   backSpeed : 60,
   loop:true
  })
-
+ 
  var carousels = function () {
     $(".owl-carousel1").owlCarousel({
       loop: true,
