@@ -28,7 +28,7 @@ $(document).ready(function(){
  })
 
  var typed = new Typed(".typing",{
-  strings : ["Full Stack Developer"],
+  strings : ["Full Stack Developer."],
   typeSpeed :100,
   backSpeed : 60,
   loop:true
