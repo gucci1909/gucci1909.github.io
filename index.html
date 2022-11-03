@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <div class="scroll-up-btn">
+      <i class="fa fa-angle-up"></i>
+    </div>
     <nav class="navbar">
       <div class="max-width">
         <div class="logo">
@@ -370,7 +373,6 @@
       <div class="max-width">
         <h2 class="title13">Contact Me</h2>
         <div class="contact-content">
-
           <div class="contact left">
             <div class="texting123">Get in Touch</div>
             <div class="icons">
@@ -396,40 +398,54 @@
                 </div>
               </div>
               <div id="icon-social">
-                <a href="https://www.linkedin.com/in/umang-arora-full-stack-developer/" target="_blank">
-                  <img src="./images/linkedin-circle.png" class="social" alt="">
+                <a
+                  href="https://www.linkedin.com/in/umang-arora-full-stack-developer/"
+                  target="_blank"
+                >
+                  <img
+                    src="./images/linkedin-circle.png"
+                    class="social"
+                    alt=""
+                  />
                 </a>
-                <a href="https://github.com/gucci1909"  target="_blank">
-                  <img src="./images/github.png" class="social" alt="">
+                <a href="https://github.com/gucci1909" target="_blank">
+                  <img src="./images/github.png" class="social" alt="" />
                 </a>
               </div>
             </div>
           </div>
           <div class="column right">
-              <div class="texting124">Message Me</div>
-              <form>
-                <div class="fields">
-                  <div class="field name">
-                    <input type="text" placeholder="Name" required/>
-                  </div>
-                  <div class="field email">
-                    <input type="email" placeholder="Email"  required/>
-                  </div>
+            <div class="texting124">Message Me</div>
+            <form onsubmit="sendEmail(); reset(); return false;">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Name" required />
                 </div>
-                <div class="field">
-                  <input type="text" placeholder="Subject" required/>
+                <div class="field email">
+                  <input type="email" placeholder="Email" id="email" required />
                 </div>
-                <div class="field textarea">
-                  <textarea
-                  rows="10" cols="30"
-                    placeholder="Write your message here"
-                    required
-                  ></textarea>
-                </div>
-                <div class="button">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  id="subject"
+                  required
+                />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  rows="10"
+                  cols="30"
+                  placeholder="Write your message here"
+                  id="message"
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -440,3 +456,19 @@
   </body>
 </html>
 <script src="./index.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+
+  function sendEmail(){
+    Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "umangarora0134@gmail.com",
+      Password: "487CA21EEFF75347034E611C99B670B7AF66",
+      To: "umangarora0134@gmail.com",
+      From: document.getElementById("email").value,
+      Subject: document.getElementById("subject").value,
+      Body: document.getElementById("message").value,
+    }).then((message) => alert("Message Send"));
+    
+  }
+</script>
