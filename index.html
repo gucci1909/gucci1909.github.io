@@ -5,9 +5,12 @@
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="./images/umang.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/x-icon" href="./images/umang.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,6 +33,91 @@
     />
     <link rel="stylesheet" href="./index.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <style>
+    .carousel-wrapper {
+      width: 1200px;
+      margin:auto;
+      position: relative;
+      text-align: center;
+      z-index: 1;
+    }
+    .owl-carousel .owl-nav {
+      overflow: hidden;
+      height: 0px;
+      z-index: 1;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+      margin-top: 50px!important;
+      border: 2px solid #fb9902;
+      background: #fff;
+  border-radius: 50%;
+  display: block;
+  z-index: 1;
+
+    }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+      
+      background: #fb9902;
+      z-index: 1;
+    }
+    .owl-item{
+        margin-right: 15px !important;
+        z-index: 1;
+    }
+    .owl-stage{
+        width: 7000px!important;
+        z-index: 1;
+    }
+
+    .owl-carousel .item {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+      text-align: center;
+    }
+    .owl-carousel .nav-button {
+      height: 50px;
+      width: 25px;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1;
+      top: 110px !important;
+    }
+    .owl-carousel .owl-prev.disabled,
+    .owl-carousel .owl-next.disabled {
+      pointer-events: none;
+      opacity: 0.25;
+      z-index: 1;
+    }
+    .owl-carousel .owl-prev {
+      left: -50px;
+      /* top: -100px; */
+      z-index: 1;
+    }
+    .owl-carousel .owl-next {
+      right: -45px;
+      z-index: 1;
+    }
+    .owl-theme .owl-nav [class*=owl-] {
+      color: #ffffff;
+      font-size: 30px;
+      margin-top: 100px;
+      background: crimson;
+      border-radius: 3px;
+      z-index: 1;
+    }
+    .owl-carousel .prev-carousel:hover {
+      background-position: 0px -53px;
+      z-index: 1;
+    }
+    .owl-carousel .next-carousel:hover {
+      background-position: -24px -53px;
+      z-index: 1;
+    }
+  </style>
   </head>
   <body>
     <div class="scroll-up-btn">
@@ -171,162 +259,217 @@
 
     <!-- Projects Section -->
 
-    <section class="gtco-testimonials projects" id="projects">
-      <div class="max-width">
-        <h2 class="title12">My Projects</h2>
-        <div class="owl-carousel owl-carousel1 owl-theme" id="card-box">
-          <div class="card">
-            <div class="box">
-              <img class="homepage" src="./images/kindmeal.png" alt="" />
-              <div class="texting">Kindmeal Clone Website</div>
-              <p>
-                Tech Stack - NODE.JS , REACT.JS , HEROKU , MONGO DB , EXPRESS.JS
-                , CONTEXT API , CHAKRA-UI
-              </p>
-              <p>
-                Objective - Clone website of kindmeal.my . I've created Home
-                page , Signup page , Login page and Kindmeal products page.
-              </p>
-              <div class="buttons">
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://domineering-kick-7131.vercel.app/"
-                >
-                  Website Link
-                </a>
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://github.com/gucci1909/Kindmeal-website-clone.git"
-                >
-                  GitHub Repo
-                </a>
+    <section class="carousel-wrapper projects" id="projects">
+      <!-- <h2>Owl Carousel 2 Custom Navigation Arrows Example</h2> -->
+      <!-- <div class="owl-carousel owl-theme"> -->
+        <div class="max-width">
+          <h2 class="title12">My Projects</h2>
+          <section class="owl-carousel owl-carousel1 owl-theme" id="card-box">
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/skill-up.png" alt="" />
+                <div class="texting">Skill-Up : A Learning Website</div>
+                <p class="para">Tech Stack - REACT JS , REDUX , REDUX-THUNK , CRUD , NODE JS , EXPRESS , MONGO DB , FIREBASE , CHAKRA-UI , RENDER</p>
+                <p class="obj">
+                  Objective - Skill-Up is a global destination for teaching and learning online. It is a unique project in which changes made in a admin's page , can be seen in the user's page .
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://skill-up-habitual-oatmeal.netlify.app/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/habitual-oatmeal-3228.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>  
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img class="homepage" src="./images/jiomart.png" alt="" />
-              <div class="texting">Jiomart Clone Website</div>
-              <p>
-                Tech Stack - HTML5 , CSS3, JAVASCRIPT, HEROKU , API, BOOTSTRAP
-              </p>
-              <p>
-                Objective - Clone Website of Jiomart website in which i've
-                deployed my own api . You can add your products to the cart and
-                buy them.
-              </p>
-              <div class="buttons">
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://gucci1909.github.io/Jio-Mart-Website-Clone/"
-                >
-                  Website Link
-                </a>
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://github.com/gucci1909/Jio-Mart-Website-Clone.git"
-                >
-                  GitHub Repo
-                </a>
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/kindmeal.png" alt="" />
+                <div class="texting">Kindmeal Clone Website</div>
+                <p class="para">
+                  Tech Stack - NODE JS , REACT JS , HEROKU , MONGO DB , EXPRESS , CONTEXT API , CHAKRA-UI
+                </p >
+                <p class="obj">
+                  Objective - KindMeal.my is Malaysia's leading meat-free lifestyle platform . I've created Home
+                  page , Signup page , Login page and Kindmeal products page.
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://domineering-kick-7131.vercel.app/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/Kindmeal-website-clone.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img class="homepage" src="./images/myglamm.png" alt="" />
-              <div class="texting">Myglamm Clone Website</div>
-              <p>
-                Tech Stack - HTM5 , CSS3 , JAVASCRIPT, LOCAL-STORAGE, API ,
-                BOOTSTRAP
-              </p>
-              <p>
-                Objective - Clone of an E-commerce (myglamm) website which is
-                made from Html,css,javascript , you can add products in your
-                cart and buy them.
-              </p>
-              <div class="buttons">
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://gucci1909.github.io/My-glamm-Website-Clone/"
-                >
-                  Website Link
-                </a>
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://github.com/gucci1909/My-glamm-Website-Clone.git"
-                >
-                  GitHub Repo
-                </a>
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/umang-chatting.png" alt="" />
+                <div class="texting">Umang's Chatting App</div>
+                <p class="para">Tech Stack - REACT JS , NODE JS , EXPRESS , MONGO DB , FIREBASE , CHAKRA-UI , RENDER</p>
+                <p class="obj">
+                  <!-- A chatting app -->
+                  Objective - Chatting app allows you to communicate with people through chat. It enables you to send and receive messages. It also allows you to delete or modify your own messages.
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://the-umang-arora-chatting-app.netlify.app/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/Umang-Chatting-App.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>  
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img class="homepage" src="./images/myntra.png" alt="" />
-              <div class="texting">Myntra Clone Website</div>
-              <p>
-                Tech Stack - HTML5 , CSS3 , JAVASCRIPT , LOCAL-STORAGE ,
-                BOOTSTRAP
-              </p>
-              <p>
-                Objective - This project is the UI clone of Myntra.com, which is
-                a popular E-Commerce website, where anyone can visit and buy
-                their required item.
-              </p>
-              <div class="buttons">
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://exquisite-cucurucho-70b93b.netlify.app/"
-                >
-                  Website Link
-                </a>
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://github.com/gucci1909/Myntra-Website-Clone.git"
-                >
-                  GitHub Repo
-                </a>
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/jiomart.png" alt="" />
+                <div class="texting">Jiomart Clone Website</div>
+                <p class="para">
+                  Tech Stack - HTML5 , CSS3, JAVASCRIPT, HEROKU , API, BOOTSTRAP
+                </p>
+                <p class="obj">
+                  Objective - Clone Website of Jiomart website in which i've
+                  deployed my own api . You can add your products to the cart and
+                  buy them.
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://gucci1909.github.io/Jio-Mart-Website-Clone/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/Jio-Mart-Website-Clone.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img class="homepage" src="./images/zappos.png" alt="" />
-              <div class="texting">Zappos Clone Website</div>
-              <p>Tech Stack - HTML5 , CSS3 , JAVASCRIPT</p>
-              <p>
-                Objective - This project is the UI clone of Zappos.com, which is
-                a popular E-Commerce website . I implemented sorting and filtering of the products in this website.
-              </p>
-              <div class="buttons">
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://spontaneous-starlight-6559f8.netlify.app/"
-                >
-                  Website Link
-                </a>
-                <a
-                  class="clickme danger"
-                  target="_blank"
-                  href="https://github.com/gucci1909/Zappos-Website-Clone.git"
-                >
-                  GitHub Repo
-                </a>
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/myglamm.png" alt="" />
+                <div class="texting">Myglamm Clone Website</div>
+                <p class="para">
+                  Tech Stack - HTM5 , CSS3 , JAVASCRIPT, LOCAL-STORAGE, API ,
+                  BOOTSTRAP
+                </p>
+                <p class="obj">
+                  Objective - Clone of an E-commerce (myglamm) website which is
+                  made from Html,css,javascript , you can add products in your
+                  cart and buy them.
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://gucci1909.github.io/My-glamm-Website-Clone/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/My-glamm-Website-Clone.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/myntra.png" alt="" />
+                <div class="texting">Myntra Clone Website</div>
+                <p class="para">
+                  Tech Stack - HTML5 , CSS3 , JAVASCRIPT , LOCAL-STORAGE ,
+                  BOOTSTRAP
+                </p>
+                <p class="obj"> 
+                  Objective - This project is the UI clone of Myntra.com, which is
+                  a popular E-Commerce website, where anyone can visit and buy
+                  their required item.
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://exquisite-cucurucho-70b93b.netlify.app/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/Myntra-Website-Clone.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <img class="homepage" src="./images/zappos.png" alt="" />
+                <div class="texting">Zappos Clone Website</div>
+                <p class="para">Tech Stack - HTML5 , CSS3 , JAVASCRIPT</p>
+                <p class="obj">
+                  Objective - This project is the UI clone of Zappos.com, which is
+                  a popular E-Commerce website . I implemented sorting and filtering of the products in this website.
+                </p>
+                <div class="buttons">
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://spontaneous-starlight-6559f8.netlify.app/"
+                  >
+                    Website Link
+                  </a>
+                  <a
+                    class="clickme danger"
+                    target="_blank"
+                    href="https://github.com/gucci1909/Zappos-Website-Clone.git"
+                  >
+                    GitHub Repo
+                  </a>
+                </div>  
+              </div>
+            </div>
+            
+            
+          </section>
+    </div>
     <section class="stats">
       <header>
         <h1 class="header-1">GitHub Statistics</h1>
@@ -380,7 +523,7 @@
               <div class="row">
                 <i class="fa fa-user"></i>
                 <div class="info">
-                  <div class="head">Name</div>
+                  <div class="head1">Name</div>
                   <div class="sub-title">Umang Arora</div>
                 </div>
               </div>
@@ -394,8 +537,8 @@
               <div class="row">
                 <i class="fa fa-envelope"></i>
                 <div class="info">
-                  <div class="head">Email</div>
-                  <div class="sub-title">umangarora0134@gmail.com</div>
+                  <div class="head3">Email</div>
+                  <div class="sub-title1">umangarora0134@gmail.com</div>
                 </div>
               </div>
               <div id="icon-social">
@@ -472,4 +615,25 @@
     }).then((message) => alert("Message Sent"));
     
   }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    margin: 15,
+    nav: true,
+    navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
+      }
+    }
+  });
 </script>
