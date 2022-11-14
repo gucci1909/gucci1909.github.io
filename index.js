@@ -1,8 +1,8 @@
 $(document).ready(function () {
   $(window).scroll(function () {
-    if (this.scrollY > 1920) {
-      $(".navbar").addClass("remove");
-    }
+    // if (this.scrollY > 1920) {
+      // $(".navbar").addClass("remove");
+    // }
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
     } else {
