@@ -6,6 +6,12 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.calendar {
+  min-height: 130px;
+}
+.contrib-column{
+  display: none;
+}
 #projects {
   margin-top: 60px;
 }
