@@ -78,3 +78,67 @@ $(document).ready(function () {
   //     carousels();
   //   })(jQuery);
 });
+
+
+
+
+
+// function runProgram(input){
+    
+//   input=input.trim().split("\n");
+//   let n = Number(input[0]);
+//   let arr = input[1].trim().split(" ").map(Number);
+  
+ 
+//   MergeSorting(n,arr);
+  
+// }
+
+// function MergeSorting(n,arr){
+  
+//   let bag=[];
+//   for(let i=0;i<n;i++)
+//   {
+//       bag.push(i)
+//   }
+  
+//  for(let i=0;i<n;i++)
+//  {
+//     for(let j=0;j<n-i-1;j++)
+//    {
+//       if(arr[j]>arr[j+1])
+//       {
+//           [arr[j],arr[j+1]]=[arr[j+1],arr[j]];
+//           [bag[j],bag[j+1]]=[bag[j+1],bag[j]]  ;
+     
+//       }
+//    }
+//  }
+
+//  console.log(bag.join(" "))
+// }
+
+
+
+
+
+// if (process.env.USER === "") {
+// runProgram(``);
+// } else {
+// process.stdin.resume();
+// process.stdin.setEncoding("ascii");
+// let read = "";
+// process.stdin.on("data", function (input) {
+//   read += input;
+// });
+// process.stdin.on("end", function () {
+//   read = read.replace(/\n$/, "");
+//   read = read.replace(/\n$/, "");
+//   runProgram(read);
+// });
+// process.on("SIGINT", function () {
+//   read = read.replace(/\n$/, "");
+//   runProgram(read);
+//   process.exit(0);
+//   });
+// }
