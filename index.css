@@ -9,6 +9,9 @@
 .calendar {
   min-height: 130px;
 }
+.js-calendar-graph-svg{
+  margin-top: 10px;
+}
 .contrib-column{
   display: none;
 }
@@ -187,6 +190,10 @@ a{
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+}
+
+.flex-sm-items-center{
+  display: none;
 }
 
 .button-30:focus {
